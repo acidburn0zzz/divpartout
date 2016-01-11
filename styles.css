@@ -5,7 +5,6 @@ html {
   box-sizing: inherit;
 }
 
-
 .container {
   display: flex;
   flex-direction: row;
@@ -13,56 +12,93 @@ html {
 
 .column {
   width: 33.33333%;
-  /*border-right: 5px solid #423d3b;*/
 }
 
-
-
+.column:nth-of-type(1), .column:nth-of-type(2), .foods, .science-nature, .music {
+  border-right: 5px solid #423d3b;
+}
 
 header {
   background-color: #37bbd4;
   border-bottom: 5px solid #423d3b;
 }
 
-div {
-  border-top: 2px;
-  border-color: #423d3b;
-}
-
 h2 {
-  font-size: 1em;
+  font-size: .8em;
+  font-family: sans-serif;
   padding: 1em 0 1em 10px;
   margin: 0;
 }
 
-
+.leaderboard, .entertainment, .sports, .foods, .general-knowledge, .geography, .history, .science-nature, .tv-movies, .music, .profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-bottom: 5px solid #423d3b;
+}
 
 .leaderboard, .profile {
-  color: white;
+  background-color: #fff;
+}
+
+.leaderboard h2, .profile h2 {
   background-color: #999;
 }
 
 .entertainment, .geography {
-  background-color: #f05545;
+  background-color: #f9897d;
+}
 
+.entertainment h2, .geography h2 {
+  background-color: #f05545;
 }
 
 .sports, .tv-movies {
+  background-color: #b483ff;
+}
+
+.sports h2, .tv-movies h2 {
   background-color: #7f53c6;
 }
 
 .foods, .science-nature {
+  background-color: #b8f5c9;
+}
+
+.foods h2, .science-nature h2 {
   background-color: #35eab5;
 }
 
 .general-knowledge {
+  background-color: #f9fe86;
+}
+
+.general-knowledge h2 {
   background-color: #faec1b;
 }
 
 .history, .music {
+  background-color: #7efeff;
+}
+
+.history h2, .music h2 {
   background-color: #3ea8f6;
 }
 
+.leaderboard, .geography {
+  height: 400px;
+}
+
 .entertainment, .sports, .foods, .general-knowledge, .science-nature, .tv-movies, .music, .profile {
+  height: 200px;
   width: 50%;
+}
+
+header h2, .leaderboard h2, .entertainment h2, .sports h2, .geography h2, .history h2, .tv-movies h2, .music h2, .profile h2  {
+  color: white;
+}
+
+.history {
+  height: 200px;
+  width: 100%;
 }
