@@ -1,0 +1,36 @@
+header {
+  background-color: #37bbd4;
+  border-bottom: 5px solid #423d3b;
+}
+
+div {
+  border-top: 2px;
+  border-color: #423d3b;
+}
+
+h2 {
+  font-size: 1em;
+  padding: 1em 0 1em 10px;
+  margin: 0;
+}
+
+.colum {
+  /*padding: 0;*/
+  border-right: 5px solid #423d3b;
+}
+
+
+.leaderboard {
+  color: white;
+  background-color: #999;
+  max-width: 431px;
+}
+
+.entertainment {
+  background-color: #f05545;
+
+}
+
+.sports {
+  background-color: #7f53c6;
+}
