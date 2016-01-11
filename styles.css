@@ -8,11 +8,12 @@ html {
 
 .container {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: row;
 }
 
 .column {
   width: 33.33333%;
+  /*border-right: 5px solid #423d3b;*/
 }
 
 
@@ -34,10 +35,6 @@ h2 {
   margin: 0;
 }
 
-.colum {
-  /*padding: 0;*/
-  border-right: 5px solid #423d3b;
-}
 
 
 .leaderboard, .profile {
@@ -64,4 +61,8 @@ h2 {
 
 .history, .music {
   background-color: #3ea8f6;
+}
+
+.entertainment, .sports, .foods, .general-knowledge, .science-nature, .tv-movies, .music, .profile {
+  width: 50%;
 }
