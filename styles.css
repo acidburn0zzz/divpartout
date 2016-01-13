@@ -1,0 +1,54 @@
+.no-padding > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.col-lg-4 {
+  border-right: 5px #000 solid;
+}
+
+h2 {
+  margin:0;
+}
+
+.glyphicon {
+  font-size: 50px;
+}
+
+.header {
+  background-color: #37bbd2;
+}
+
+.leaderboard, .profile, .entertainment, .geography, .general-knowledge, .sports, .tv-movies, .foods, .history, .science-nature, .music  {
+  text-align: center;
+}
+
+.leaderboard, .profile {
+  background-color: #eee;
+}
+
+.leaderboard h2, .profile h2 {
+  background-color: #ccc;
+  text-align: left;
+}
+
+
+.entertainment, .geography {
+  background-color: #f9897d;
+}
+
+.entertainment h2 {
+  background-color: #f8504d;
+}
+
+.general-knowledge {
+  background-color: #fbff86;
+}
+
+.sports, .tv-movies {
+  background-color: #b483ff;
+}
+
+.foods, .history, .science-nature, .music   {
+  background-color: #b7f6c9;
+}
