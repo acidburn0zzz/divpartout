@@ -1,26 +1,33 @@
-.no-padding > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
-}
-
-.col-lg-4 {
-  border-right: 5px #000 solid;
-}
-
-h2 {
-  margin:0;
-}
-
-.glyphicon {
-  font-size: 50px;
-}
-
 .header {
   background-color: #37bbd2;
 }
 
+.col-lg-4:nth-child(-n+3), .foods, .science-nature, .music {
+  border-right: 5px #000 solid;
+}
+
+.header, .leaderboard, .history, .entertainment, .sports, .geography, .music, .profile, .foods, .general-knowledge, .science-nature, .tv-movies  {
+  border-bottom: 5px #000 solid;
+}
+
+h2 {
+  margin:0;
+  font-size: .9em;
+  padding: 10px 0 10px 10px;
+  color: #fff;
+  text-align: left;
+}
+
 .leaderboard, .profile, .entertainment, .geography, .general-knowledge, .sports, .tv-movies, .foods, .history, .science-nature, .music  {
   text-align: center;
+}
+
+.leaderboard, .geography {
+  height: 400px;
+}
+
+.entertainment, .sports, .foods, .general-knowledge, .history, .science-nature, .tv-movies, .music, .profile {
+  height: 200px;
 }
 
 .leaderboard, .profile {
@@ -29,15 +36,13 @@ h2 {
 
 .leaderboard h2, .profile h2 {
   background-color: #ccc;
-  text-align: left;
 }
-
 
 .entertainment, .geography {
   background-color: #f9897d;
 }
 
-.entertainment h2 {
+.entertainment h2, .geography h2 {
   background-color: #f8504d;
 }
 
@@ -45,10 +50,35 @@ h2 {
   background-color: #fbff86;
 }
 
+.general-knowledge h2 {
+  background-color: #f9ed19;
+  color: #000;
+}
+
 .sports, .tv-movies {
   background-color: #b483ff;
 }
+.sports h2, .tv-movies h2 {
+  background-color: #7f53c6;
+}
 
-.foods, .history, .science-nature, .music   {
+.foods, .science-nature, .history h2, .music h2 {
   background-color: #b7f6c9;
+}
+
+.history, .music, .foods h2, .science-nature h2 {
+  background-color: #7efeff;
+  color: #000;
+}
+
+.glyphicon {
+  font-size: 50px;
+}
+
+.glyphicon-sunglasses, .glyphicon-tent {
+  line-height: 361px;
+}
+
+.glyphicon-glass, .glyphicon-music, .glyphicon-flag, .glyphicon-knight, .glyphicon-apple, .glyphicon-globe, .glyphicon-film, .glyphicon-headphones, .glyphicon-user {
+  line-height: 161px;
 }
