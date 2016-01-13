@@ -2,12 +2,15 @@
   background-color: #37bbd2;
 }
 
-.col-lg-4:nth-child(-n+3), .foods, .science-nature, .music {
+ .leaderboard, .sports, .general-knowledge, .geography, .foods, .science-nature, .music {
   border-right: 5px #000 solid;
+  border-collapse: collapse;
+
 }
 
 .header, .leaderboard, .history, .entertainment, .sports, .geography, .music, .profile, .foods, .general-knowledge, .science-nature, .tv-movies  {
   border-bottom: 5px #000 solid;
+  border-collapse: collapse;
 }
 
 h2 {
@@ -81,4 +84,19 @@ h2 {
 
 .glyphicon-glass, .glyphicon-music, .glyphicon-flag, .glyphicon-knight, .glyphicon-apple, .glyphicon-globe, .glyphicon-film, .glyphicon-headphones, .glyphicon-user {
   line-height: 161px;
+}
+
+.glyphicon-play {
+  font-size: 10px;
+  color: #fff;
+  padding-right: 10px;
+}
+
+@media (max-width:991px) {
+  .leaderboard, .sports, .foods, .general-knowledge, .geography, .science-nature, .music {
+    border-right: none;
+  }
+  .profile {
+    border-bottom: none;
+  }
 }
