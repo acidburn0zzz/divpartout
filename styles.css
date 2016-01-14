@@ -90,8 +90,23 @@ h2 {
 }
 
 @media (max-width:991px) {
-  .leaderboard, .sports, .foods, .general-knowledge, .geography, .science-nature, .music {
+  .entertainment {
+    border-right: 5px solid #000;
+  }
+
+  .leaderboard, .sports, .general-knowledge, .geography {
     border-right: none;
   }
-  .profile { border-bottom: none; }
+
+}
+
+@media (max-width:767px) {
+  .entertainment {
+    border-right: 5px solid #000;
+  }
+
+  .leaderboard, .entertainment, .sports, .science-nature, .music, .foods, .general-knowledge, .geography {
+    border-right: none;
+  }
+
 }
