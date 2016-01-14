@@ -4,13 +4,10 @@
 
  .leaderboard, .sports, .general-knowledge, .geography, .foods, .science-nature, .music {
   border-right: 5px #000 solid;
-  border-collapse: collapse;
-
 }
 
 .header, .leaderboard, .history, .entertainment, .sports, .geography, .music, .profile, .foods, .general-knowledge, .science-nature, .tv-movies  {
   border-bottom: 5px #000 solid;
-  border-collapse: collapse;
 }
 
 h2 {
