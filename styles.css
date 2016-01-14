@@ -92,17 +92,9 @@ h2 {
   padding-right: 10px;
 }
 
-@media (max-width:991px) and (orientation: landscape) {
+@media (max-width:991px) {
   .leaderboard, .sports, .foods, .general-knowledge, .geography, .science-nature, .music {
     border-right: none;
   }
-  .profile {
-    border-bottom: none;
-  }
-  .history, .tv-movies, .science-nature, .music, .profile {
-    height: 140px;
-  }
-  .glyphicon-glass, .glyphicon-music, .glyphicon-flag, .glyphicon-knight, .glyphicon-apple, .glyphicon-globe, .glyphicon-film, .glyphicon-headphones, .glyphicon-user {
-    line-height: 150px;
-  }
+  .profile { border-bottom: none; }
 }
